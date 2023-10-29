@@ -3,10 +3,11 @@
   background-color: rgb(5, 32, 60);
 }
 .navbar .navbar-brand {
-  margin-left: 30px;
+  margin-left: 50px;
 }
 .navbar .navbar-brand .fa-brands {
   font-size: 90px;
+  margin-left: 15px;
 }
 .navbar .navbar-toggler {
   color: aliceblue;
@@ -26,6 +27,14 @@
   border-radius: 10px;
 }
 
+@media (max-width: 600px) {
+  .navbar .navbar-brand {
+    margin-left: 10px;
+  }
+  .navbar .navbar-brand .fa-brands {
+    margin-left: 0px;
+  }
+}
 /* end nav-bar */
 /* start section image */
 .section-image {
