@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style_singin.scss" />
+    <link rel="stylesheet" href="style_singin.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link
+      rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    /> 
+    
+
+    <!-- <link rel="stylesheet" href="../css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    Font Awesome CDN link for icons
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"> -->
+
+
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container-fluid">
+          <a class="navbar-brand text-light ms-5" href="#"
+            ><i class="fa-brands fa-stripe ms-2 p-0 mt-0 "></i></a
+          >
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+          <i class="fa-solid fa-bars " style="color: #ffffff;"></i>
+          </button>
+  
+  
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+  
+  
+              <ul class="navbar-nav me-auto mb-1 mb-lg-0 fs-5 mt-0 ms-2 ">
+  
+                <li class="nav-item ms-2 ">
+                  <a class="nav-link  home  text-light" aria-current="page" href="../index.html">
+                    <i class="fa-solid fa-house"></i>
+                        Home
+                  </a>
+                </li>
+  
+                  <li class="nav-item ms-2">
+                    <a class="nav-link hotel  text-light" aria-current="page" href="#hotel">
+                          <i class="fa-solid fa-hotel ms-2"></i>
+                          hotel
+                    </a>
+                  </li>
+                  <li class="nav-item ms-2">
+                      <a class="nav-link car  text-light" aria-current="page" href="#car">
+                          <i class="fa-solid fa-car ms-2"></i>
+                          car
+                      </a>
+                    </li>
+                    <li class="nav-item ms-2">
+                      <a class="nav-link flight text-light" aria-current="page" href="#">
+                          <i class="fa-solid fa-plane ms-2"></i>
+                          flight
+                      </a>
+                    </li>
+  
+                    <li class="nav-item ms-2 ">
+                      <a class="nav-link  favorite  text-light" aria-current="page" href="../page_favorate/add_favorate.html">
+                        <i class="fa-regular fa-heart"></i>
+                            favorite
+                      </a>
+                    </li>
+              </ul>
+      
+  
+            <ul class="navbar-nav ms-auto mb-1 mb-lg-0 me-5 mt-0 align-items-center">
+
+
+              <li class="dropdown me-2">
+                <button class="btn text-light dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                  <i class="fa-solid fa-earth-americas fs-4" ></i
+                    >
+                </button>
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                  <li class="d-flex"><img class="ms-1 me-0 pe-0 img-fluid rounded-circle " width="35px" height="35px" src="../photo/download.png"> <a class="dropdown-item ps-3" href="#">Arabic</a></li>
+                  <li class="d-flex mt-2"><img class="ms-1 me-0 pe-0 img-fluid rounded-circle " width="35px" height="35px" src="../photo/download (1).png"> <a class="dropdown-item ps-3" href="#">English</a></li>
+                  
+                </ul>
+              </li>
+
+              
+              <li class="nav-item p-1 ">
+                <a class="nav-link text-light fs-5" href="../page_logIn/page_login.html"
+                  ><i class="fa-regular fa-user fs-5"></i> Log in</a
+                >
+              </li>
+              <li class="nav-item ms-2 p-1 active">
+                <a class="nav-link text-light fs-5" href="page_signIn.html"
+                  ><i class="fa-regular fa-user fs-5"></i> sign up</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+  
+      <!-- end nav-bar -->
+
+      <section class="text-center mt-5 container">
+
+        <form action="" method="get" target="_blank" class=" px-5 pb-4 pt-2">
+          <i class="fa-brands fa-stripe  "></i></a>
+
+          <div>
+            <input 
+            class="name mt-3 p-1"
+            type="text"
+            placeholder="name"
+            autofocus
+          />
+          <br />
+            <input 
+              class="email mt-4 mb-4 p-1"
+              type="email"
+              placeholder="Enter Email"
+              
+            />
+            <br />
+            
+          
+            <input class="mb-4 password p-1" type="password" placeholder="Enter Password" />
+            <br />
+            <button class="mb-2 create text-light w-100 p-1" type="submit">Create</button>
+            <br>
+            <a class="mb-4 " href="../page_logIn/page_login.html">logIn</a>
+          </div>
+          
+      </section>
+
+
+      <!-- notifications -->
+
+      <!-- <ul class="notifications" ></ul> -->
+
+      <!-- <div class="toast align-items-center text-bg-primary border-0" role="alert" aria-live="assertive" aria-atomic="true">
+        <div class="d-flex">
+          <div class="toast-body">
+            Hello, world! This is a toast message.
+          </div>
+          <button type="button" class="btn-close btn-close-white me-2 m-auto" data-bs-dismiss="toast" aria-label="Close"></button>
+        </div>
+      </div> -->
+      
+      <!-- notifications -->
+      <div id="toastBox">
+      </div>
+
+      <!-- <script src="../js/script.js" defer></script> -->
+    <script src="js_sinin.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

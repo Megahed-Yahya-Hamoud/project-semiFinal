@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../style_main.css" />
+    <link rel="stylesheet" href="../style_main.scss" /> 
+    <link rel="stylesheet" href="style_fvoite.scss" />    
+    <link rel="stylesheet" href="style_favoite.css" />    
+    <link rel="stylesheet" href="../css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"/>
+</head>
+<body>
+
+
+   <!-- start nav-bar -->
+
+   <nav class="navbar navbar-expand-lg navbar-light">
+    <div class="container-fluid">
+      <a class="navbar-brand text-light ms-5" href="#"
+        ><i class="fa-brands fa-stripe ms-2 p-0 mt-0 "></i></a
+      >
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+      <i class="fa-solid fa-bars " style="color: #ffffff;"></i>
+      </button>
+
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+
+
+          <ul class="navbar-nav me-auto mb-1 mb-lg-0 fs-5 mt-0 ms-2 ">
+
+
+            <li class="nav-item ms-2 ps-1 ">
+                <a class="nav-link  home  text-light" aria-current="page" href="../index.html">
+                  <i class="fa-solid fa-house"></i>
+                      Home
+                </a>
+              </li>
+
+              <li class="nav-item ms-2 ps-1">
+                <a class="nav-link hotel  text-light" aria-current="page" href="#hotel">
+                      <i class="fa-solid fa-hotel ms-2"></i>
+                      hotel
+                </a>
+              </li>
+              <li class="nav-item ms-2 ps-1">
+                  <a class="nav-link car  text-light" aria-current="page" href="#car">
+                      <i class="fa-solid fa-car ms-2"></i>
+                      car
+                  </a>
+                </li>
+                <li class="nav-item ms-2 ps-1">
+                  <a class="nav-link flight text-light" aria-current="page" href="#">
+                      <i class="fa-solid fa-plane ms-2"></i>
+                      flight
+                  </a>
+                </li>
+
+                <li class="nav-item ms-2 active ps-1">
+                    <a class="nav-link  favorite  text-light" aria-current="page" href="../page_favorate/add_favorate.html">
+                        <i class="fa-regular fa-heart"></i>
+                          favorite
+                    </a>
+                  </li>
+
+          </ul>
+  
+
+        <ul class="navbar-nav ms-auto mb-1 mb-lg-0 me-5 mt-0 align-items-center">
+
+          <li class="dropdown">
+            <button class="btn text-light dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+              <i class="fa-solid fa-earth-americas fs-4" ></i
+                >
+            </button>
+            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+              <li class="d-flex"><img class="ms-1 me-0 pe-0 img-fluid rounded-circle " width="35px" height="35px" src="../photo/download.png"> <a class="dropdown-item ps-3" href="#">Arabic</a></li>
+              <li class="d-flex mt-2"><img class="ms-1 me-0 pe-0 img-fluid rounded-circle " width="35px" height="35px" src="../photo/download (1).png"> <a class="dropdown-item ps-3" href="#">English</a></li>
+              
+            </ul>
+          </li>
+
+
+          
+          <li class="nav-item login ">
+            <a class="nav-link text-light fs-5" href="page_logIn/page_login.html"
+              ><i class="fa-regular fa-user fs-5"></i> Log in</a
+            >
+          </li>
+          <li class="nav-item ms-2 signin">
+            <a class="nav-link text-light fs-5" href="page_signIn/page_signin.html"
+              ><i class="fa-regular fa-user fs-5"></i> sign up</a
+            >
+          </li>
+          <li class="nav-item ms-2 user-info d-flex   text-light">
+            <a class="nav-link text-light fs-5 text-light my-user" >
+              <i class="fa-regular fa-user fs-5"></i> 
+            </a>
+            
+          </li>
+          <li class="nav-item ms-2 logout d-flex p-1  text-light">
+            <a class="nav-link text-light fs-5 text-light my-user" >
+              <i class="fa-solid fa-right-from-bracket fs-5" style="color: #ffffff;"></i>
+              Log out
+            </a>
+            
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- end nav-bar -->
+
+    <section class=" container  ">
+
+      <table class="cart w-50  mt-3" >
+        <thead>
+          <tr>
+            <td>
+              <div class="ms-4 mt-3 mb-3 "><b>country</b></div>
+            </td>
+            <td class="text-center">
+              <button class="remove-all mt-4 mb-3 btn btn-danger" ><b>Remove All</b></button>
+            </td>
+          </tr>
+        </thead>
+        <tbody>
+          
+        </tbody>
+    </table>
+    </section>
+
+
+
+    <script src="favorite.js"></script>
+    <script src="../js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

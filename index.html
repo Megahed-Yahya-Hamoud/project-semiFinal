@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style_main.scss" />
+    <link rel="stylesheet" href="style_main.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"/>
+  </head>
+  <body>
+    <!-- start nav-bar -->
+
+    <nav class="navbar navbar-expand-lg navbar-light py-0">
+      <div class="container-fluid">
+        <a class="navbar-brand text-light ms-5" href="#"
+          ><i class="fa-brands fa-stripe ms-2 p-0 mt-0 "></i></a
+        >
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+        <i class="fa-solid fa-bars " style="color: #ffffff;"></i>
+        </button>
+
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+
+            <ul class="navbar-nav me-auto mb-1 mb-lg-0 fs-5 mt-0 ms-2 ">
+
+              <li class="nav-item ms-2 active ps-1">
+                <a class="nav-link  home  text-light " aria-current="page" href="index.html">
+                  <i class="fa-solid fa-house"></i>
+                      Home
+                </a>
+              </li>
+
+                <li class="nav-item ms-2 ps-1">
+                  <a class="nav-link hotel  text-light" aria-current="page" href="#hotel">
+                        <i class="fa-solid fa-hotel ms-2"></i>
+                        hotel
+                  </a>
+                </li>
+                <li class="nav-item ms-2 ps-1">
+                    <a class="nav-link car  text-light" aria-current="page" href="#car">
+                        <i class="fa-solid fa-car ms-2"></i>
+                        car
+                    </a>
+                  </li>
+                  <li class="nav-item ms-2 ps-1">
+                    <a class="nav-link flight text-light" aria-current="page" href="#">
+                        <i class="fa-solid fa-plane ms-2"></i>
+                        flight
+                    </a>
+                  </li>
+
+                  <li class="nav-item ms-2 ps-1">
+                    <a class="nav-link  favorite  text-light" aria-current="page" href="page_favorate/add_favorate.html">
+                      <i class="fa-regular fa-heart"></i>
+                          favorite
+                    </a>
+                  </li>
+            </ul>
+
+            
+            <ul class="navbar-nav ms-auto mb-1 mb-lg-0 me-4 mt-0 align-items-center">
+    
+              <li class="dropdown">
+                <button class="btn text-light dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                  <i class="fa-solid fa-earth-americas fs-4" ></i
+                    >
+                </button>
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                  <li class="d-flex"><img class="ms-1 me-0 pe-0 img-fluid rounded-circle " width="35px" height="35px" src="photo/download.png"> <a class="dropdown-item ps-3" href="#">Arabic</a></li>
+                  <li class="d-flex mt-2"><img class="ms-1 me-0 pe-0 img-fluid rounded-circle " width="35px" height="35px" src="photo/download (1).png"> <a class="dropdown-item ps-3" href="#">English</a></li>
+                </ul>
+              </li>
+
+            <li class="nav-item login ">
+              <a class="nav-link text-light fs-5" href="page_logIn/page_login.html"
+                ><i class="fa-regular fa-user fs-5"></i> Log in</a
+              >
+            </li>
+            <li class="nav-item ms-2 signin">
+              <a class="nav-link text-light fs-5" href="page_signIn/page_signin.html"
+                ><i class="fa-regular fa-user fs-5"></i> sign up</a
+              >
+            </li>
+            <li class="nav-item ms-2 user-info d-flex   text-light">
+              <a class="nav-link text-light fs-5 text-light my-user" >
+                <i class="fa-regular fa-user fs-5"></i> 
+              </a>
+              
+            </li>
+            <li class="nav-item ms-2 logout d-flex p-1  text-light">
+              <a class="nav-link text-light fs-5 text-light my-user" >
+                <i class="fa-solid fa-right-from-bracket fs-5" style="color: #ffffff;"></i>
+                Log out
+              </a>
+              
+            </li>
+
+            
+
+            <!-- <form class="d-flex ms-2">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-light" type="submit">Search</button>
+            </form> -->
+          </ul>
+          
+        </div>
+      </div>
+    </nav>
+
+    <!-- end nav-bar -->
+
+
+    <!-- start section image  -->
+
+    <div class="container mt-4">
+      <section class="section-image">
+        <div class="title-image  d-inline-block">
+          <p class="Choose fs-4 mb-1">
+            <b>Choose your destinations</b>
+          </p>
+          <p class="Travel  fs-1"><b>Travel Anywhere</b></p>
+          <a href="#start" class="Start "><b>Start your search</b></a>
+        </div>
+      </section>
+    </div>
+    <!-- end section image  -->
+  
+
+
+<!-- start section country -->
+
+<section class="section-country  mt-5" id="start">
+  <div class="container">
+    <p class="title fs-3 mb-1"><b>The most popular country</b></p>
+    <p class="fs-5">
+      Start by taking a tour within each country and choose your destinations
+    </p>
+  <div class="row row-col-4 row_in_js ">
+    
+    </div>
+
+  </div>
+</section>
+
+
+
+
+<!-- end section country -->
+
+
+
+
+
+    <!-- start section explained -->
+
+<section class="section-explained mt-5 ">
+  <div class="container">
+
+    <div class="accordion accordion-flush w-100" id="accordionFlushExample">
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="flush-headingOne">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+            <p class="fs-4 fw-bold mb-1">When you click the name country </p>
+          </button>
+        </h2>
+        <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+          <div class="accordion-body">
+        <p class="fs-5">You go to a page containing the most famous tourist places for this country</p>
+            
+          </div>
+        </div>
+      </div>
+
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="flush-headingTwo">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+            <p class="fs-4 fw-bold mb-1">When you click the flight </p>
+          </button>
+        </h2>
+        <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+          <div class="accordion-body">
+          <p class="fs-5">You go to a page containing section of the most famous Airlines</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="flush-headingThree">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+            <p class="fs-4 fw-bold mb-1">When you click the Hotel </p>
+          </button>
+        </h2>
+        <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+          <div class="accordion-body">
+          <p class="fs-5">You go to a page containing section the most famous Hotels</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="flush-headingFour">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
+            <p class="fs-4 fw-bold mb-1">When you click the car </p>
+
+          </button>
+        </h2>
+        <div id="flush-collapseFour" class="accordion-collapse collapse" aria-labelledby="flush-headingFour" data-bs-parent="#accordionFlushExample">
+          <div class="accordion-body">
+            <p class="fs-5">You go to a page containing section can choose car</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+</section>
+
+    <!-- end section explained -->
+
+    <!-- start footer -->
+
+  <footer class="mt-5 pt-5 pb-2 text-center text-md-start text-light">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 col-lg-3 mb-4">
+          <h5>Best destinations</h5>
+          <ul class="Best-destinations list-unstyled lh-lg" >
+            <li><a class="egypt-footer-B" href="#">Egypt</a></li>
+            <li><a class="dubai-footer-B" href="#">Dubai</a></li>
+            <li><a  class="tokyo-footer-B" href="#">Tokyo</a></li>
+            <li><a  class="london-footer-B" href="#">England</a></li>
+            <li><a  class="italy-footer-B" href="#">Italy</a></li>
+          </ul>
+        </div>
+
+        <div class="col-md-6 col-lg-3 mb-4">
+          <h5>The famous countries</h5>
+          <ul class="Best-destinations list-unstyled lh-lg" >
+            <li><a class="dubai-footer-F" href="#">Dubai</a></li>
+            <li><a class="egypt-footer-F" href="#">Egypt</a></li>
+            <li><a class="france-footer-F" href="#">France</a></li>
+            <li><a class="italy-footer-F" href="#">Italy</a></li>
+            <li><a class="america-footer-F" href="#">America</a></li>
+          </ul>
+        </div>
+
+
+        <div class="col-md-6 col-lg-3 mb-4">
+          <h5>The famous Airlines</h5>
+          <ul class="Best-destinations list-unstyled lh-lg" >
+            <li><a href="https://www.googleadservices.com/pagead/aclk?sa=L&ai=DChcSEwi80u3dtdWBAxUB5O0KHeOdCNYYABABGgJkZw&ase=2&gclid=CjwKCAjwseSoBhBXEiwA9iZtxrgii_qoyUUb7soAm5zRvYrfmlu4USquZJWGFmTfnoxEZEg9tuvkvhoCCx4QAvD_BwE&ohost=www.google.com&cid=CAESVuD2aP7Ktr_8pYCYEHNnWHx_CsohGGujlTY7KYGtOahL42C8Ix9rnRrC0fxUkCAR28ry_X4JbiAqNr8Qx91XGaEbLy-Ob3EKuMiMx3zkBESLbVzZRgN2&sig=AOD64_0GJ67SdhVmuJogOBDumxa9xAk7lA&q&nis=4&adurl&ved=2ahUKEwifmufdtdWBAxXmVEEAHTlfA7cQ0Qx6BAgHEAE">Egypt Air</a></li>
+            <li><a href="https://www.googleadservices.com/pagead/aclk?sa=L&ai=DChcSEwj4o7n3tdWBAxUC_dUKHf7BAAoYABABGgJ3cw&ase=2&gclid=CjwKCAjwseSoBhBXEiwA9iZtxvNyoWhoIshiH3K_bj2fpuGge6aTUtTz3MlykxBdKJOMFHn0MXMXVRoC84MQAvD_BwE&ohost=www.google.com&cid=CAESVuD23xKEwVhWKkw-N_1xdIop1klf7KZLsk8jqpBt4NQJCuUujFCqb58hLo1uQ-86uqjKjc3rt1Xc42REmC705B0Efkaj5iIMmf1TDo7uoRcpnVjnXsPO&sig=AOD64_3zzLHmPu5rzvFaTFlDC35QuUm6-w&q&nis=4&adurl&ved=2ahUKEwj8pbL3tdWBAxXwTKQEHSJ7AvUQ0Qx6BAgGEAE">Saudi Arabia</a></li>
+            <li><a href="https://aircairo.com/ar-sa/homepage">Air Cairo</a></li>
+            <li><a href="https://www.googleadservices.com/pagead/aclk?sa=L&ai=DChcSEwj6xqC0ttWBAxXMLwYAHSo7Bh4YABAAGgJ3cw&ase=2&gclid=CjwKCAjwseSoBhBXEiwA9iZtxpaN761hnKFFUVez6HNzJwEDFLB5JKnc2bZKmpocxmW1rRhjmxYKgBoCt5sQAvD_BwE&ohost=www.google.com&cid=CAESVuD292-_dOSAKM_WexQHj6A7qoXltVrznOHnIY9Iy9Gm60FhCbqEQpu1nPH6aNPnGaAuAHfmjE0wuU3lvGJ1ZpQutIA4uuurLeqKBRNjizLNeyXwZDjE&sig=AOD64_36LE60Y9iPZAZfwdhuASDmOuOWGg&q&nis=4&adurl&ved=2ahUKEwjpr5q0ttWBAxWAVqQEHcAgC6gQ0Qx6BAgGEAE">FlyNas</a></li>
+            <li><a href="https://www.airarabia.com/ar">Arabia Airlines Egypt</a></li>
+          </ul>
+        </div>
+
+
+        <div class="col-md-6 col-lg-3 mb-4">
+          <h5>Contact Us</h5>
+          <ul class="Best-destinations list-unstyled lh-lg" >
+            <li>
+              <i class="fa-solid fa-message"></i>
+              Strip@gmail.com
+            </li>
+            <li><a href="https://facebook.com">
+              <i class="fa-brands fa-facebook"></i>
+              Facebook
+            </a></li>
+            <li><a href="https://twitter.com">
+              <i class="fa-brands fa-twitter"></i>
+              twitter
+            </a></li>
+            <li>
+              <a href="https://google.com">
+              <i class="fa-brands fa-google"></i>
+              google
+              </a>
+            </li>
+            <li>
+              <a href="https://instagram.com">
+                <i class="fa-brands fa-instagram"></i>
+                instagram
+              </a>
+            </li>
+            
+          </ul>
+        </div>
+
+      </div>
+      <p class="text-center border-top pt-3 ">&copy; strip Ltd 2023-2024</p>
+    </div>
+
+    </div>
+  </footer>
+
+    <!-- end footer -->
+
+    <!-- button -->
+    <button class="btn position-fixed " id="bt">
+      <i class="fa-solid fa-angles-up fs-4 " style="color: #72767e;"></i>
+    </button>
+    <!-- button -->
+
+     <!-- notifications -->
+     <div id="toastBox">
+    </div>
+
+    
+    <script src="javaScript_main.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>

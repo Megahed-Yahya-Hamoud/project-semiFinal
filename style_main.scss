@@ -1,0 +1,326 @@
+/* start nav-bar */
+
+.navbar {
+  background-color: rgb(5, 32, 60);
+  .navbar-brand {
+    margin-left: 30px;
+    .fa-brands {
+      font-size: 90px;
+    }
+  }
+  .navbar-toggler {
+    color: aliceblue;
+    font-size: 25px;
+    border-color: aliceblue;
+  }
+
+  .collapse {
+
+    
+    ul {
+      .active{
+        background-color: rgba(240, 248, 255, 0.484);
+        border-radius: 10px;
+      }
+      .user-info{
+        display: none;
+        
+      }
+      li:hover {
+        background-color: rgba(240, 248, 255, 0.484);
+        transition: 0.5s;
+        border-radius: 10px;
+      }
+    }
+  }
+}
+
+/* end nav-bar */
+
+/* start section image */
+
+.section-image {
+  border-radius: 10px;
+  background-image: url("https://cdn.alaan.tv/2023/04/20/20230420-1681988462190-original.webp?ext=jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-position-y: 0px;
+  height: 550px;
+  .title-image {
+    margin-top: 185px;
+    margin-left: 50px;
+    p {
+      color: rgb(5, 32, 60);
+    }
+    a {
+      text-decoration: none;
+      color: rgb(5, 32, 60);
+      background-color: aliceblue;
+      padding: 7px 10px;
+      border-radius: 5px;
+    }
+    a:hover {
+      text-decoration: none;
+      background-color: rgb(255, 255, 255);
+      padding: 7px 10px;
+      border-radius: 5px;
+    }
+  }
+}
+
+@media (max-width:550px ) { 
+  .section-image{
+    background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-position-y: 0px;
+  height: 250px;
+  .title-image {
+    margin: 50px 0px 50px 20px;
+  }
+  }
+}
+
+/* end section image */
+
+/* start section country */
+
+.section-country {
+  .container{
+    p{
+
+      color:rgb(23, 23, 90);
+    }
+  }
+
+  .row {
+    row-gap: 1rem;
+    .col-md-6 {
+      text-decoration: none;
+      display: inline-block;
+      img {
+        border-radius: 15px;
+        cursor: pointer;
+      }
+      .link-Egypt {
+        i{
+          opacity: 0.5;
+          cursor: pointer;
+        }
+        // i:hover{
+          //   transition: 0.3s;
+        //   color: red;
+        //   opacity: 1;
+        // }
+        .Egypt {
+          a {
+            color: rgb(6, 39, 74);
+            text-decoration: none;
+            cursor: pointer;
+          }
+        }
+        .link {
+          a {
+        
+            color: rgb(6, 37, 70);
+            text-decoration: none;
+            cursor: pointer;
+          }
+        }
+      }
+    }
+  }
+}
+
+/* end section country */
+
+/* start footer*/
+
+footer {
+  background-color: rgb(5, 32, 60);
+  .container {
+    .Best-destinations {
+      list-style: none;
+      transition: 0.5s;
+    }
+  }
+  li {
+    a {
+      text-decoration: none;
+      color: rgb(255, 255, 255);
+    }
+
+  }
+  
+  li:hover {
+    transition: 0.3s;
+    list-style: disc;
+    margin-left: 3px;
+    
+  }
+
+}
+
+/* end footer*/
+
+.btn {
+  bottom: 2%;
+  right: 1%;
+  display: none;
+  color: #1d1c45;
+}
+//===============================
+
+#toastBox{
+  position: absolute;
+  top: 70px;
+  right :5px;
+  display: flex;
+  align-items: flex-end;
+  flex-direction: column;
+  overflow: hidden;
+  padding: 20px 10px 20px 30px;
+  // animation: hide_toast 6s ease forwards;
+  .toast{
+    font-size: 14px;
+    display: block;
+    width:400px ;
+    height: 60px;
+    background-color: #fff;
+    font-weight: 500;
+    margin: 10px 0;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+    color: #08e234;
+    animation: hide_toast 6s ease forwards;
+    span{
+      margin-left: 190px;
+    }
+  }
+  
+.toast-user{
+  font-size: 14px;
+    display: block;
+    width:400px ;
+    height: 60px;
+    background-color: #fff;
+    font-weight: 500;
+    margin: 10px 0;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+    color:  #cd8a18;
+    animation: hide_toast 6s ease forwards;
+    span{
+      margin-left: 170px;
+    }
+}
+
+  .toast::before{
+    position: absolute;
+    content: "";
+    background-color:#08e234;
+    height: 3px;
+    width: 100%;
+    bottom: 0px;
+    left: 0px;
+    animation: progress 5s linear forwards;
+  }
+  .toast-user::before{
+    position: absolute;
+    content: "";
+    background-color: #cd8a18;
+    height: 3px;
+    width: 100%;
+    bottom: 0px;
+    left: 0px;
+    animation: progress 5s linear forwards;
+  }
+  
+}
+
+@media (max-width:460px){
+  #toastBox{
+    .toast{
+      border-radius:0px ;
+      font-size: auto;
+      display: block;
+      width:auto;
+      height: auto;
+      background-color: #fff;
+      font-weight: auto;
+      margin: auto;
+      box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+      display: flex;
+      align-items: center;
+      padding-left: auto ;
+      color:  #08e234;
+      animation: hide_toast 6s ease forwards;
+      span{
+        margin:10px 10px 10px 50px;
+      }
+    }
+    .toast::before{
+      position: absolute;
+      content: "";
+      background-color:#08e234;
+      height: 3px;
+      width: 95%;
+      bottom: -1px;
+      left: 0px;
+      animation: progress 5s linear forwards;
+    }
+    .toast-user{
+      font-size: auto;
+      display: block;
+      width:auto;
+      height: auto;
+      background-color: #fff;
+      font-weight: auto;
+      margin: auto;
+      box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+      display: flex;
+      align-items: center;
+      padding-left: auto ;
+      color:  #cd8a18;
+      animation: hide_toast 6s ease forwards;
+      span{
+        margin:10px 10px 10px 50px;
+      }
+      }
+      .toast-user::before{
+        position: absolute;
+        content: "";
+        background-color: #cd8a18;
+        height: 3px;
+        width: 95%;
+        bottom: -1px;
+        left: 0px;
+        animation: progress 5s linear forwards;
+      }
+  }
+
+}
+
+@keyframes progress {
+  100% {
+    width: 0%;
+  }
+}
+
+@keyframes hide_toast {
+  0% {
+    transform: translateX(-10px);
+  }
+  40% {
+    transform: translateX(0%);
+  }
+  80% {
+    transform: translateX(-5%);
+  }
+  100% {
+    transform: translateX(calc(100% + 50px));
+  }
+}
