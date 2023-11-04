@@ -8,7 +8,7 @@ header {
 }
 header p {
   display: inline-block;
-  margin-top: 200px;
+  margin-top: 210px;
 }
 header a {
   border-radius: 10px;
@@ -87,6 +87,18 @@ header a:hover {
   background-color: rgb(18, 18, 86);
 }
 
+@media (max-width: 530px) {
+  .container .row .col-12 {
+    padding: 0px !important;
+  }
+  .container .row .col-12 .box {
+    display: block !important;
+  }
+  .container .row .col-12 .box img {
+    width: 100% !important;
+    border-radius: 15px;
+  }
+}
 .section-guide .text-center {
   color: rgb(18, 18, 86);
 }

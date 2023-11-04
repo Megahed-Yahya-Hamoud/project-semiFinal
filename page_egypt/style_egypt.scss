@@ -1,5 +1,3 @@
-
-
 header {
   background-image: url("https://img.freepik.com/free-photo/majestic-pyramid-shape-awe-inspiring-ancient-civilization-monument-generated-by-ai_188544-21352.jpg?size=626&ext=jpg&ga=GA1.2.59328787.1687623858&semt=sph");
   background-repeat: no-repeat;
@@ -9,7 +7,7 @@ header {
   border-bottom-right-radius: 15px;
   p {
     display: inline-block;
-    margin-top: 200px;
+    margin-top: 210px;
   }
   a {
     border-radius: 10px;
@@ -100,6 +98,24 @@ header {
     }
     .View:hover {
       background-color: rgb(18, 18, 86);
+    }
+  }
+}
+
+@media (max-width:530px) {
+
+  .container{
+    .row{
+      .col-12{
+        padding: 0px !important;
+        .box{
+          display: block !important;
+          img{
+            width: 100% !important;
+            border-radius: 15px;
+          }
+        }
+      }
     }
   }
 }

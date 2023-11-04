@@ -149,6 +149,24 @@ header{
     }
   }
   
+  @media (max-width:530px) {
+
+    .container{
+      .row{
+        .col-12{
+          padding: 0px !important;
+          .box{
+            display: block !important;
+            img{
+              width: 100% !important;
+              border-radius: 15px;
+            }
+          }
+        }
+      }
+    }
+  }
+  
   //============================================
   
   .section-guide {

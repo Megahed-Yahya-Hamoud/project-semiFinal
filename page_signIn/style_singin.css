@@ -22,6 +22,14 @@
   border-radius: 10px;
 }
 
+@media (max-width: 600px) {
+  .navbar .navbar-brand {
+    margin-left: 10px;
+  }
+  .navbar .navbar-brand .fa-brands {
+    margin-left: 0px;
+  }
+}
 form i {
   font-size: 80px;
 }

@@ -5,4 +5,13 @@
 .container table {
   border-radius: 10px;
   box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+@media (max-width: 600px) {
+  .navbar .navbar-brand {
+    margin-left: 10px;
+  }
+  .navbar .navbar-brand .fa-brands {
+    margin-left: 0px;
+  }
 }/*# sourceMappingURL=style_favoite.css.map */

@@ -27,6 +27,18 @@
     }
   }
 
+  @media (max-width:600px) {
+    .navbar{
+        .navbar-brand {
+          margin-left: 10px;
+          .fa-brands{
+            margin-left: 0px;
+          }
+        }
+    }
+    
+  }
+
 //===============================================
 
 form{
