@@ -2,10 +2,11 @@
   background-color: rgb(5, 32, 60);
 }
 .navbar .navbar-brand {
-  margin-left: 30px;
+  margin-left: 50px;
 }
 .navbar .navbar-brand .fa-brands {
   font-size: 90px;
+  margin-left: 15px;
 }
 .navbar .navbar-toggler {
   color: aliceblue;
